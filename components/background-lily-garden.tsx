@@ -26,6 +26,10 @@ export function BackgroundLilyGarden() {
   // Dynamic gradient based on scroll
   const gradientOpacity = 0.6 + scrollProgress * 0.4;
   const gradientShift = scrollProgress * 100;
+  const safeScrollProgress = Number.isFinite(scrollProgress)
+    ? scrollProgress
+    : 0;
+  const px = (n: number, digits = 4) => Number(n).toFixed(digits) + "px";
 
   return (
     <div className="fixed inset-0 z-0 overflow-hidden pointer-events-none">
@@ -37,24 +41,24 @@ export function BackgroundLilyGarden() {
             radial-gradient(ellipse at 20% ${
               20 + gradientShift * 0.3
             }%, rgba(168, 218, 181, ${
-            0.4 + scrollProgress * 0.3
+            0.4 + safeScrollProgress * 0.3
           }) 0%, transparent 50%),
             radial-gradient(ellipse at 80% ${
               60 + gradientShift * 0.2
             }%, rgba(216, 184, 192, ${
-            0.3 + scrollProgress * 0.4
+            0.3 + safeScrollProgress * 0.4
           }) 0%, transparent 40%),
             radial-gradient(ellipse at 40% ${
               80 + gradientShift * 0.1
             }%, rgba(186, 162, 200, ${
-            0.2 + scrollProgress * 0.3
+            0.2 + safeScrollProgress * 0.3
           }) 0%, transparent 60%),
             linear-gradient(180deg, 
-              rgba(168, 218, 181, ${0.3 + scrollProgress * 0.2}) 0%,
-              rgba(200, 180, 160, ${0.2 + scrollProgress * 0.3}) 25%,
-              rgba(232, 184, 200, ${0.4 + scrollProgress * 0.2}) 50%,
-              rgba(200, 160, 200, ${0.3 + scrollProgress * 0.3}) 75%,
-              rgba(160, 180, 220, ${0.4 + scrollProgress * 0.2}) 100%
+              rgba(168, 218, 181, ${0.3 + safeScrollProgress * 0.2}) 0%,
+              rgba(200, 180, 160, ${0.2 + safeScrollProgress * 0.3}) 25%,
+              rgba(232, 184, 200, ${0.4 + safeScrollProgress * 0.2}) 50%,
+              rgba(200, 160, 200, ${0.3 + safeScrollProgress * 0.3}) 75%,
+              rgba(160, 180, 220, ${0.4 + safeScrollProgress * 0.2}) 100%
             )
           `,
         }}
@@ -64,7 +68,7 @@ export function BackgroundLilyGarden() {
       <div
         className="absolute inset-0 opacity-20 transition-opacity duration-1000"
         style={{
-          opacity: 0.1 + scrollProgress * 0.2,
+          opacity: 0.1 + safeScrollProgress * 0.2,
           background: `
             repeating-linear-gradient(
               45deg,
@@ -99,10 +103,10 @@ export function BackgroundLilyGarden() {
             rx={15 + (i % 3) * 10}
             ry={8 + (i % 2) * 5}
             fill="url(#smallLilyPadGradient)"
-            opacity={0.2 + scrollProgress * 0.3}
+            opacity={0.2 + safeScrollProgress * 0.3}
             style={{
               transform: `rotate(${i * 30}deg) scale(${
-                0.8 + scrollProgress * 0.4
+                0.8 + safeScrollProgress * 0.4
               })`,
               transformOrigin: `${100 + ((i * 100) % 1000)}px ${
                 100 + ((i * 80) % 600)
@@ -119,10 +123,10 @@ export function BackgroundLilyGarden() {
           rx="200"
           ry="120"
           fill="url(#lilyPadGradient1)"
-          opacity={0.3 + scrollProgress * 0.2}
+          opacity={0.3 + safeScrollProgress * 0.2}
           style={{
-            transform: `scale(${0.8 + scrollProgress * 0.3}) rotate(${
-              scrollProgress * 10
+            transform: `scale(${0.8 + safeScrollProgress * 0.3}) rotate(${
+              safeScrollProgress * 10
             }deg)`,
             transformOrigin: "600px 400px",
             transition: "transform 0.5s ease-out",
@@ -136,10 +140,10 @@ export function BackgroundLilyGarden() {
           rx="150"
           ry="90"
           fill="url(#lilyPadGradient2)"
-          opacity={0.25 + scrollProgress * 0.25}
+          opacity={0.25 + safeScrollProgress * 0.25}
           style={{
-            transform: `scale(${0.7 + scrollProgress * 0.2}) rotate(${
-              -scrollProgress * 8
+            transform: `scale(${0.7 + safeScrollProgress * 0.2}) rotate(${
+              -safeScrollProgress * 8
             }deg)`,
             transformOrigin: "200px 300px",
             transition: "transform 0.5s ease-out",
@@ -299,11 +303,13 @@ export function BackgroundLilyGarden() {
             cy={100 + ((i * 40) % 600)}
             r="1.5"
             fill="url(#particleGradient)"
-            opacity={0.2 + scrollProgress * 0.4}
+            opacity={0.2 + safeScrollProgress * 0.4}
             style={{
-              transform: `translateY(${
-                -scrollProgress * 40 - i * 3
-              }px) translateX(${Math.sin(scrollProgress * 6.28 + i) * 10}px)`,
+              transform: `translateY(${px(
+                -safeScrollProgress * 40 - i * 3
+              )}px) translateX(${px(
+                Math.sin(safeScrollProgress * 6.28 + i) * 10
+              )}px)`,
               transition: "transform 0.3s ease-out",
             }}
           />
