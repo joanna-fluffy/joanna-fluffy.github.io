@@ -109,9 +109,10 @@ export default function ArtistPortfolio() {
                     About the Artist
                   </h2>
                   <p className="text-lg text-[#9080B0] leading-relaxed drop-shadow-sm">
-                    Joanna Gong is a contemporary artist whose work captures the ephemeral beauty of nature through an
-                    impressionistic lens. Drawing inspiration from Claude Monet's revolutionary approach to light and
-                    color, she creates paintings that evoke emotion and tranquility.
+                    Joanna Gong is a student artist whose work explores light, atmosphere, and detail with an impressionistic touch. 
+                    Inspired by both classical influences such as Claude Monet and contemporary storytelling, she is passionate about 
+                    creating realistic portrait sketches that capture presence and personality. Alongside this, her art balances soft, 
+                    atmospheric glow with intricate detail, reflecting both her curiosity as a learner and her growing voice as an artist.
                   </p>
                   <p className="text-lg text-[#9080B0] leading-relaxed drop-shadow-sm">
                     Her artistic journey began in childhood, sketching the gardens near her home. Today, she continues
@@ -119,8 +120,9 @@ export default function ArtistPortfolio() {
                     interplay of light on water surfaces.
                   </p>
                   <p className="text-lg text-[#9080B0] leading-relaxed drop-shadow-sm">
-                    Working primarily in oils and acrylics, Joanna's technique emphasizes loose brushwork and a dreamy
-                    quality that invites viewers into a world of serene contemplation.
+                    Working primarily in graphite and acrylics, Joanna's technique emphasizes loose brushwork and a dreamy
+                    quality that invites viewers into a world of serene contemplation, while she also enjoys focusing on the
+                    finer details to bring depth and realism to her work.
                   </p>
                 </div>
                 <div className="relative">
