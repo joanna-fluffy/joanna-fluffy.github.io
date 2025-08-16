@@ -174,13 +174,13 @@ export const artworksData: Record<string, Artwork> = {
     tags: ["autumn", "reflections", "golden light", "foliage", "seasonal"],
     slug: "autumn-whispers",
   },
-  "Fluffy's-First-Adventure": {
+  "fluffy-adventure": {
     id: 9,
     title: "Fluffy's First Adventure",
     medium: "Acrylic on Canvas",
     size: '12" x 12"',
     year: "2025",
-    image: "https://drive.google.com/file/d/1Nw7MUm2YTqXwSJggvBrmOE0oyaGTayym/view?usp=sharing",
+    image: "/fluffy.jpg",
     description: "A dreamy sunset unfolding over a majestic mountain, mirrored by the still waters of a tranquil lake.",
     longDescription:
       "Fluffy’s First Adventure captures the calm beauty of Johnson Lake in Banff, where the mountains rise strong and the water rests in stillness. The sunset paints the scene in warm colors, reflecting both the strength of nature and the peace of the lake. This piece marks my dog Fluffy’s first road trip, making the moment even more meaningful and full of memory.",
@@ -189,7 +189,7 @@ export const artworksData: Record<string, Artwork> = {
     dimensions: { width: 12, height: 12, depth: 1.5 },
     exhibitions: ["Dawn Series 2025", "Light Studies Exhibition"],
     tags: ["sunset", "last light", "colorful", "landscape", "atmospheric", "Banff"],
-    slug: "Fluffy",
+    slug: "fluffy-adventure",
   },
   "peaceful-waters": {
     id: 10,
