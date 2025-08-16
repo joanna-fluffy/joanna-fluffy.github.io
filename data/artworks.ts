@@ -187,12 +187,27 @@ export const artworksData: Record<string, Artwork> = {
     technique: "Atmospheric acrylic painting with subtle color transitions",
     inspiration: "Late night sunsets with a stunning view.",
     dimensions: { width: 12, height: 12, depth: 1.5 },
-    exhibitions: ["Dawn Series 2025", "Light Studies Exhibition"],
     tags: ["sunset", "last light", "colorful", "landscape", "atmospheric", "Banff"],
     slug: "fluffy-adventure",
   },
-  "peaceful-waters": {
+   "Niki": {
     id: 10,
+    title: "The Brightest Star",
+    medium: "Graphite on paper",
+    size: '7.9" x 5.5"',
+    year: "2025",
+    image: "/IMG_1761.HEIC",
+    description: "A realistic portrait of Ni-ki from Enhypen.",
+    longDescription:
+      "The Brightest Star captures the luminous presence of Ni-ki as he stands against a radiant backdrop, the light framing him like a celestial glow. Rather than emphasizing his face, the sketch softens his features to create an atmospheric aura, letting the brilliance of the scene take center stage. The attention to the delicate folds and textures of his clothing grounds the piece in detail, while the glowing light transforms him into the embodiment of a star. This work celebrates both the ethereal beauty of the moment and the quiet strength of Ni-ki’s presence, turning a fleeting scene into something timeless.",
+    technique: "Atmospheric graphite sketch with luminous shading",
+    inspiration: "My muse Ni-ki, and all of Enhypen.",
+    dimensions: { width: 5.5, height: 7.9},
+    tags: ["sketch", "graphite", "black & white", "Ni-ki", "Enhypen", "portrait"],
+    slug: "Niki",
+  },
+  "peaceful-waters": {
+    id: 11,
     title: "Peaceful Waters",
     medium: "Acrylic on Canvas",
     size: '16" x 24"',
@@ -211,7 +226,7 @@ export const artworksData: Record<string, Artwork> = {
     slug: "peaceful-waters",
   },
   "dreaming-in-blue": {
-    id: 11,
+    id: 12,
     title: "Dreaming in Blue",
     medium: "Watercolor",
     size: '14" x 18"',
