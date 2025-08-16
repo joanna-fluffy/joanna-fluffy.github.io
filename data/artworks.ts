@@ -180,7 +180,7 @@ export const artworksData: Record<string, Artwork> = {
     medium: "Acrylic on Canvas",
     size: '12" x 12"',
     year: "2025",
-    image: "/fluffy.jpg",
+    image: "/IMG_1757.jpg",
     description: "A dreamy sunset unfolding over a majestic mountain, mirrored by the still waters of a tranquil lake.",
     longDescription:
       "Fluffy’s First Adventure captures the calm beauty of Johnson Lake in Banff, where the mountains rise strong and the water rests in stillness. The sunset paints the scene in warm colors, reflecting both the strength of nature and the peace of the lake. This piece marks my dog Fluffy’s first road trip, making the moment even more meaningful and full of memory.",
