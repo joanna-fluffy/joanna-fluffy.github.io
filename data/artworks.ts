@@ -17,7 +17,7 @@ export interface Artwork {
 
 export const artworksData: Record<string, Artwork> = {
   "morning-mist": {
-    id: 4,
+    id: 100,
     title: "Morning Mist",
     medium: "Oil on Canvas",
     size: '30" x 40"',
