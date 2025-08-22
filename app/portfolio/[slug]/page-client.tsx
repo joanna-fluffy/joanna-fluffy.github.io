@@ -125,7 +125,12 @@ export default function ArtworkPage() {
                 })`,
               }}
             >
-              <div className="relative aspect-[4/3] overflow-hidden rounded-2xl shadow-2xl">
+              <div
+                className="relative overflow-hidden rounded-2xl shadow-2xl"
+                style={{
+                  aspectRatio: `${artwork.dimensions.width} / ${artwork.dimensions.height}`,
+                }}
+              >
                 <Image
                   src={artwork.image || "/placeholder.svg"}
                   alt={artwork.title}
