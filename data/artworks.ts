@@ -200,7 +200,7 @@ export const artworksData: Record<string, Artwork> = {
       "The Brightest Star captures the luminous presence of Ni-ki as he stands against a radiant backdrop, the light framing him like a celestial glow. Rather than emphasizing his face, the sketch softens his features to create an atmospheric aura, letting the brilliance of the scene take center stage. The attention to the delicate folds and textures of his clothing grounds the piece in detail, while the glowing light transforms him into the embodiment of a star. This work celebrates both the ethereal beauty of the moment and the quiet strength of Ni-ki’s presence, turning a fleeting scene into something timeless.",
     technique: "Atmospheric graphite sketch with luminous shading",
     inspiration: "My muse Ni-ki, and all of Enhypen.",
-    dimensions: { width: 5.5, height: 7.9},
+    dimensions: { width: 5.5, height: 7.9 },
     tags: ["sketch", "graphite", "black & white", "Ni-ki", "Enhypen", "portrait"],
     slug: "Niki",
   },
