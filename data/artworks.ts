@@ -17,11 +17,11 @@ export interface Artwork {
 
 export const artworksData: Record<string, Artwork> = {
   "morning-mist": {
-    id: 3,
+    id: 4,
     title: "Morning Mist",
     medium: "Oil on Canvas",
     size: '30" x 40"',
-    year: "2026",
+    year: "2028",
     price: "$3,200",
     image: "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&h=600&fit=crop&crop=center",
     description:
