@@ -113,7 +113,7 @@ export const artworksData: Record<string, Artwork> = {
     size: '14" x 18"',
     year: "2025",
     price: "$900",
-    image: "https://images.unsplash.com/photo-1439066615861-d1af74d74000?w=450&h=360&fit=crop&crop=center",
+    image: "/IMG_1758.jpeg",
     description: "Abstract interpretation of water and sky in various shades of blue.",
     longDescription:
       "Sometimes the boundary between water and sky becomes so blurred that they seem to merge into one endless blue dream. This abstract watercolor explores that liminal space where earth meets heaven, where the tangible world dissolves into pure color and emotion. It's a meditation on the infinite possibilities contained within a single hue.",
