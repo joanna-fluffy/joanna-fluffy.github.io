@@ -189,7 +189,7 @@ export const artworksData: Record<string, Artwork> = {
     slug: "fluffy-adventure",
   },
    "Niki": {
-    id: 10,
+    id: 11,
     title: "The Brightest Star",
     medium: "Graphite on paper",
     size: '7.9" x 5.5"',
@@ -205,7 +205,7 @@ export const artworksData: Record<string, Artwork> = {
     slug: "Niki",
   },
   "peaceful-waters": {
-    id: 11,
+    id: 10,
     title: "Peaceful Waters",
     medium: "Acrylic on Canvas",
     size: '16" x 24"',
