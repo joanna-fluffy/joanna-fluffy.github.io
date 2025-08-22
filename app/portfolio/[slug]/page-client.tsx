@@ -200,7 +200,7 @@ export default function ArtworkPage() {
                   </p>
                 </div>
 
-                {artwork.exhibitions.length > 0 && (
+                {artwork.exhibitions && artwork.exhibitions.length > 0 && (
                   <div>
                     <h3 className="font-medium text-[#8070A0] mb-2">
                       Exhibitions
