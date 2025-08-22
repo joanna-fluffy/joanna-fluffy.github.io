@@ -123,7 +123,7 @@ export default function PortfolioPage() {
                             alt={artwork.title}
                             width={600}
                             height={400}
-                            className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-500"
+                            className="w-full h-64 object-cover object-top group-hover:scale-105 transition-transform duration-500"
                           />
                           <div className="absolute inset-0 bg-gradient-to-t from-[#8070A0]/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                           <div className="absolute top-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
