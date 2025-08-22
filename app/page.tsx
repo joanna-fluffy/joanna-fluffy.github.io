@@ -128,7 +128,7 @@ export default function ArtistPortfolio() {
                 <div className="relative">
                   <div className="aspect-square rounded-full overflow-hidden shadow-2xl bg-gradient-to-br from-[#E0C8D0]/50 to-[#D8B8C0]/50 backdrop-blur-sm border border-[#E8D8E0]/40">
                     <Image
-                      src="/IMG_1806.HEIC"
+                      src="/IMG_1806.jpeg"
                       alt="Joanna Gong"
                       width={500}
                       height={500}
