@@ -126,7 +126,7 @@ export default function ArtworkPage() {
               }}
             >
               <div
-                className="relative overflow-hidden rounded-2xl shadow-2xl"
+                className="relative w-full overflow-hidden rounded-2xl shadow-2xl"
                 style={{
                   aspectRatio: `${artwork.dimensions.width} / ${artwork.dimensions.height}`,
                 }}
@@ -255,7 +255,12 @@ export default function ArtworkPage() {
                     href={`/portfolio/${relatedArtwork.slug}`}
                   >
                     <div className="group cursor-pointer">
-                      <div className="relative aspect-[4/3] overflow-hidden rounded-xl mb-3">
+                      <div
+                        className="relative w-full overflow-hidden rounded-xl mb-3"
+                        style={{
+                          aspectRatio: `${relatedArtwork.dimensions.width} / ${relatedArtwork.dimensions.height}`,
+                        }}
+                      >
                         <Image
                           src={relatedArtwork.image || "/placeholder.svg"}
                           alt={relatedArtwork.title}
