@@ -194,7 +194,7 @@ export const artworksData: Record<string, Artwork> = {
     medium: "Graphite on paper",
     size: '7.9" x 5.5"',
     year: "2025",
-    image: "/IMG_1761.HEIC",
+    image: "/IMG_8168.jpg",
     description: "A realistic portrait of Ni-ki from Enhypen.",
     longDescription:
       "The Brightest Star captures the luminous presence of Ni-ki as he stands against a radiant backdrop, the light framing him like a celestial glow. Rather than emphasizing his face, the sketch softens his features to create an atmospheric aura, letting the brilliance of the scene take center stage. The attention to the delicate folds and textures of his clothing grounds the piece in detail, while the glowing light transforms him into the embodiment of a star. This work celebrates both the ethereal beauty of the moment and the quiet strength of Ni-ki’s presence, turning a fleeting scene into something timeless.",
