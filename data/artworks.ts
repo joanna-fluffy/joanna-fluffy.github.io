@@ -4,14 +4,12 @@ export interface Artwork {
   medium: string
   size: string
   year: string
-  price: string
   image: string
   description: string
   longDescription: string
   technique: string
   inspiration: string
   dimensions: { width: number; height: number; depth: number }
-  availability: "Available" | "Sold" | "On Hold"
   exhibitions: string[]
   tags: string[]
   slug: string
