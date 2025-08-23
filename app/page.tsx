@@ -77,11 +77,10 @@ export default function ArtistPortfolio() {
                 Joanna Gong
               </h1>
               <p className="text-xl md:text-2xl text-[#9080B0] mb-8 font-light drop-shadow-sm">
-                Contemporary Artist & Impressionist Painter
+                Graphite Realist with an Impressionist Eye | Student Artist
               </p>
               <p className="text-lg text-[#A090C0] mb-12 max-w-2xl mx-auto leading-relaxed drop-shadow-sm">
-                Creating dreamy landscapes and ethereal compositions inspired by the beauty of nature and the fleeting
-                moments of light and color.
+                Capturing presence and place through detailed graphite portraits and atmospheric landscapes.
               </p>
               <Button
                 size="lg"
