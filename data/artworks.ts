@@ -16,25 +16,22 @@ export interface Artwork {
 }
 
 export const artworksData: Record<string, Artwork> = {
-  "morning-mist": {
-    id: 100,
-    title: "Morning Mist",
-    medium: "Oil on Canvas",
-    size: '30" x 40"',
-    year: "2028",
-    price: "$3,200",
-    image: "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&h=600&fit=crop&crop=center",
+  "Circle-of-Harmony": {
+    id: 1,
+    title: "Circle of Harmony",
+    medium: "Gouache",
+    size: '7.9" x 5.5"',
+    year: "2025",
+    image: "/IMG_1771.jpeg",
     description:
-      "Ethereal mist rising from a quiet lake at daybreak, creating an atmosphere of mystery and tranquility.",
+      "Colorful koi swimming among lilypads, capturing light, movement, and energy.",
     longDescription:
-      "In the early hours of morning, when the world is still wrapped in silence, mist rises from the water like spirits dancing. This large-scale work invites viewers into a world of quiet contemplation, where the boundaries between water, air, and light become beautifully blurred. The painting captures that magical moment when day begins to emerge from night.",
-    technique: "Sfumato technique with soft blending and atmospheric perspective",
-    inspiration: "Early morning fishing trips and the mystery of dawn",
-    dimensions: { width: 30, height: 40, depth: 2 },
-    availability: "Available",
-    exhibitions: ["Atmospheric Paintings 2026", "Morning Light Series"],
-    tags: ["mist", "morning", "lake", "ethereal", "atmospheric"],
-    slug: "morning-mist",
+      "In this gouache painting, I depict a vibrant koi pond, exploring the interplay of light and shadow to bring the fish and water to life. The bright oranges and whites of the koi contrast with the deep blues and greens of the water and lilypads, creating a lively, three-dimensional effect. By arranging the fish in a circular flow, I aimed to capture movement and rhythm, giving the composition a dynamic energy. The overall mood is playful, colorful, and energetic, reflecting the beauty and vitality of koi swimming in a pond.",
+    technique: "Layered gouache with attention to light, shadow, and movement",
+    inspiration: "This work was inspired by reference images found on Pinterest, which guided my exploration of color, composition, and texture.",
+    dimensions: { width: 5.5, height: 7.9, depth: 2 },
+    tags: ["Koi", "vibrant", "lake", "movement", "lively"],
+    slug: "Circle-of-Harmony",
   },
   "ethereal-pond": {
     id: 4,
@@ -93,7 +90,7 @@ export const artworksData: Record<string, Artwork> = {
    "Niki": {
     id: 10,
     title: "The Brightest Star",
-    medium: "Graphite on paper",
+    medium: "Graphite",
     size: '7.9" x 5.5"',
     year: "2025",
     image: "/IMG_8168.jpg",
