@@ -72,7 +72,6 @@ export const artworksData: Record<string, Artwork> = {
     description: "A realistic 3/4 portrait of Sunghoon from Enhypen",
     longDescription:
       "Eyes Speak is a realistic graphite portrait of Sunghoon, created with attention to detail, shading, and simulated texture. I focused on capturing facial structure, expression, and the play of light and shadow, making adjustments to personalize the portrait. Using layered pencil strokes, blending, and varied pressure, I aimed to convey depth and realism while expressing the subject’s presence and character. This work reflects my interest in realistic portraiture and my fascination with translating references into expressive, hand-rendered artworks.",
-    technique: "Layered pencil strokes, blending, and varied pressure for realism.",
     inspiration: "The reference image was from Pinterest, with added personal flair for originality.",
     dimensions: { width: 5.5, height: 7.9, depth: 0 },
     exhibitions: [],
