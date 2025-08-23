@@ -16,8 +16,8 @@ export interface Artwork {
 }
 
 export const artworksData: Record<string, Artwork> = {
-  "Circle-of-Harmony": {
-    id: 1,
+  "circle-of-harmony": {
+    id: 4,
     title: "Circle of Harmony",
     medium: "Gouache",
     size: '7.9" x 5.5"',
@@ -31,10 +31,10 @@ export const artworksData: Record<string, Artwork> = {
     inspiration: "This work was inspired by reference images found on Pinterest, which guided my exploration of color, composition, and texture.",
     dimensions: { width: 5.5, height: 7.9, depth: 2 },
     tags: ["Koi", "vibrant", "lake", "movement", "lively"],
-    slug: "Circle-of-Harmony",
+    slug: "circle-of-harmony",
   },
   "fluffy-adventure": {
-    id: 2,
+    id: 10,
     title: "Fluffy's First Adventure",
     medium: "Acrylic on Canvas",
     size: '12" x 12"',
@@ -49,7 +49,7 @@ export const artworksData: Record<string, Artwork> = {
     slug: "fluffy-adventure",
   },
    "Niki": {
-    id: 3,
+    id: 11,
     title: "The Brightest Star",
     medium: "Graphite",
     size: '7.9" x 5.5"',
@@ -79,7 +79,7 @@ export const artworksData: Record<string, Artwork> = {
     slug: sunghoon",
   },
   "whispers-field": {
-    id: 5,
+    id: 12,
     title: "Whispers of the Field",
     medium: "Oil pastel",
     size: '6.5" x 4"',
