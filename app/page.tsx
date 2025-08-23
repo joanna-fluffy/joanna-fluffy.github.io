@@ -109,20 +109,23 @@ export default function ArtistPortfolio() {
                     About the Artist
                   </h2>
                   <p className="text-lg text-[#9080B0] leading-relaxed drop-shadow-sm">
-                    Joanna Gong is a student artist whose work explores light, atmosphere, and detail with an impressionistic touch. 
-                    Inspired by both classical influences such as Claude Monet and contemporary storytelling, she is passionate about 
-                    creating realistic portrait sketches that capture presence and personality. Alongside this, her art balances soft, 
-                    atmospheric glow with intricate detail, reflecting both her curiosity as a learner and her growing voice as an artist.
+                    Joanna Gong is a student artist influenced by Claude Monet’s overall style, particularly his use of color,
+                    mood, and natural landscapes. While Monet inspires her sense of atmosphere and harmony, Joanna is equally drawn
+                    to realism, especially in portraiture. She strives to capture presence and personality through careful attention
+                    to line, proportion, and value, using graphite to create works that highlight balance between precision and expression.            
                   </p>
                   <p className="text-lg text-[#9080B0] leading-relaxed drop-shadow-sm">
-                    Her artistic journey began in childhood, sketching the gardens near her home. Today, she continues
-                    to find inspiration in natural landscapes, particularly water gardens, morning mist, and the
-                    interplay of light on water surfaces.
+                    Her artistic journey began in childhood, sketching the flowers and backyard scenery around her home. 
+                    These early drawings nurtured her interest in observing subtle details—textures of petals, shifting light,
+                    and the rhythm of natural forms. Over time, this close study of her surroundings helped her develop a sensitivity
+                    to contrast and composition, allowing her to merge realism with a broader sense of space and movement.
                   </p>
                   <p className="text-lg text-[#9080B0] leading-relaxed drop-shadow-sm">
-                    Working primarily in graphite and acrylics, Joanna's technique emphasizes loose brushwork and a dreamy
-                    quality that invites viewers into a world of serene contemplation, while she also enjoys focusing on the
-                    finer details to bring depth and realism to her work.
+                    Working mainly with graphite, Joanna creates detailed, realistic sketches and portraits that emphasize texture,
+                    shading, and depth. At the same time, she finds joy in landscape scenes—lakes, mountains, and atmospheric views,
+                    where she can explore unity, color relationships, and the interplay of light and shadow. By combining the precision
+                    of portraiture with the expansive qualities of landscape, her work reflects both a dedication to realism and an
+                    exploration of mood, balance, and form, echoing the artistic spirit that first inspired her.
                   </p>
                 </div>
                 <div className="relative">
