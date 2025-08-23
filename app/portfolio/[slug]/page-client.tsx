@@ -170,12 +170,14 @@ export default function ArtworkPage() {
                     <span className="font-medium text-[#8070A0]">Size:</span>
                     <p className="text-[#9080B0]">{artwork.size}</p>
                   </div>
-                  <div>
-                    <span className="font-medium text-[#8070A0]">
-                      Technique:
-                    </span>
-                    <p className="text-[#9080B0]">{artwork.technique}</p>
-                  </div>
+                  {artwork.technique && (
+                    <div>
+                      <span className="font-medium text-[#8070A0]">
+                        Technique:
+                      </span>
+                      <p className="text-[#9080B0]">{artwork.technique}</p>
+                    </div>
+                  )}
                 </div>
 
                 <div>

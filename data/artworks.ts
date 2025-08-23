@@ -7,10 +7,10 @@ export interface Artwork {
   image: string
   description: string
   longDescription: string
-  technique: string
+  technique?: string
   inspiration: string
   dimensions: { width: number; height: number; depth: number }
-  exhibitions: string[]
+  exhibitions?: string[]
   tags: string[]
   slug: string
 }
@@ -58,7 +58,7 @@ export const artworksData: Record<string, Artwork> = {
     longDescription:
       "The Brightest Star captures the luminous presence of Ni-ki as he stands against a radiant backdrop, the light framing him like a celestial glow. Rather than emphasizing his face, the sketch softens his features to create an atmospheric aura, letting the brilliance of the scene take center stage. The attention to the delicate folds and textures of his clothing grounds the piece in detail, while the glowing light transforms him into the embodiment of a star. This work celebrates both the ethereal beauty of the moment and the quiet strength of Ni-ki’s presence, turning a fleeting scene into something timeless.",
     inspiration: "My muse Ni-ki, and all of Enhypen.",
-    dimensions: { width: 5.5, height: 7.9 },
+    dimensions: { width: 5.5, height: 7.9, depth: 0 },
     tags: ["sketch", "graphite", "black & white", "Ni-ki", "Enhypen", "portrait"],
     slug: "Niki",
   },
@@ -72,10 +72,12 @@ export const artworksData: Record<string, Artwork> = {
     description: "A realistic 3/4 portrait of Sunghoon from Enhypen",
     longDescription:
       "Eyes Speak is a realistic graphite portrait of Sunghoon, created with attention to detail, shading, and simulated texture. I focused on capturing facial structure, expression, and the play of light and shadow, making adjustments to personalize the portrait. Using layered pencil strokes, blending, and varied pressure, I aimed to convey depth and realism while expressing the subject’s presence and character. This work reflects my interest in realistic portraiture and my fascination with translating references into expressive, hand-rendered artworks.",
+    technique: "Layered pencil strokes, blending, and varied pressure for realism.",
     inspiration: "The reference image was from Pinterest, with added personal flair for originality.",
     dimensions: { width: 5.5, height: 7.9, depth: 0 },
+    exhibitions: [],
     tags: ["Portrait", "Graphite", "Realistic", "Enhypen", "Sunghoon"],
-    slug: sunghoon",
+    slug: "sunghoon"
   },
   "whispers-field": {
     id: 12,
@@ -86,7 +88,7 @@ export const artworksData: Record<string, Artwork> = {
     image: "/IMG_1758 2.jpeg",
     description: "Tranquil landscape of open fields bathed in soft light.",
     longDescription:
-      "This piece is an exploration of color, texture, and light using oil pastels, marking my first experience with this medium. The composition depicts a serene field with clusters of wildflowers in the foreground and a line of trees in the distance, under a sky alive with soft clouds. Through bold strokes and layered colors, I aimed to capture the natural rhythm, depth, and movement of the landscape, creating a sense of space and atmosphere. This work reflects both my curiosity as an artist experimenting with new media and my continuing interest in landscapes that balance calmness with lively, colorful detail.
+      "This piece is an exploration of color, texture, and light using oil pastels, marking my first experience with this medium. The composition depicts a serene field with clusters of wildflowers in the foreground and a line of trees in the distance, under a sky alive with soft clouds. Through bold strokes and layered colors, I aimed to capture the natural rhythm, depth, and movement of the landscape, creating a sense of space and atmosphere. This work reflects both my curiosity as an artist experimenting with new media and my continuing interest in landscapes that balance calmness with lively, colorful detail.",
     inspiration: "Inspired by an oil pastel artist I discovered online, I was drawn to the material’s vibrant pigments and the way it allows for layering and blending in a tactile, expressive manner.",
     dimensions: { width: 4, height: 6.5, depth: 0 },
     tags: ["Oil pastel", "Landscape", "calm", "scenery", "dreamy"],
