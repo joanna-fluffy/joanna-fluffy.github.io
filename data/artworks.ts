@@ -64,18 +64,18 @@ export const artworksData: Record<string, Artwork> = {
   },
   "sunghoon": {
     id: 4,
-    title: "Eyes Speak",
+    title: "Piercing Gaze",
     medium: "Graphite",
     size: '7.9" x 5.5"',
     year: "2025",
     image: "/IMG_1773.jpeg",
     description: "A realistic 3/4 portrait of Sunghoon from Enhypen",
     longDescription:
-      "Eyes Speak is a realistic graphite portrait of Sunghoon, created with attention to detail, shading, and simulated texture. I focused on capturing facial structure, expression, and the play of light and shadow, making adjustments to personalize the portrait. Using layered pencil strokes, blending, and varied pressure, I aimed to convey depth and realism while expressing the subject’s presence and character. This work reflects my interest in realistic portraiture and my fascination with translating references into expressive, hand-rendered artworks.",
+      "Piercing Gaze is a realistic graphite portrait of Sunghoon, created with attention to detail, shading, and simulated texture. I focused on capturing facial structure, expression, and the play of light and shadow, making adjustments to personalize the portrait. Using layered pencil strokes, blending, and varied pressure, I aimed to convey depth and realism while expressing the subject’s presence and character. This work reflects my interest in realistic portraiture and my fascination with translating references into expressive, hand-rendered artworks.",
     inspiration: "The reference image was from Pinterest, with added personal flair for originality.",
     dimensions: { width: 5.5, height: 7.9, depth: 0 },
     exhibitions: [],
-    tags: ["Portrait", "Graphite", "Realistic", "Enhypen", "Sunghoon"],
+    tags: ["Portrait", "Graphite", "Realism", "Enhypen", "Sunghoon"],
     slug: "sunghoon"
   },
   "whispers-field": {
@@ -92,6 +92,21 @@ export const artworksData: Record<string, Artwork> = {
     dimensions: { width: 4, height: 6.5, depth: 0 },
     tags: ["Oil pastel", "Landscape", "calm", "scenery", "dreamy"],
     slug: "whispers-field",
+  },
+      "eyes-speak": {
+    id: 13,
+    title: "Eyes Speak",
+    medium: "Graphite",
+    size: '6" x 5.5"',
+    year: "2025",
+    image: "/IMG_1774.jpeg",
+    description: "Realistic pencil portrait showing dual emotions through a single face.",
+    longDescription:
+      "Eyes Speak is a realistic pencil portrait of Gong Yoo, capturing two contrasting emotions within a single face. The left side conveys arrogance and confidence, while the right side reveals fear and vulnerability, expressed most powerfully through the eyes. Careful shading, blending, and varied pencil strokes emphasize contrasts in light, texture, and form, creating depth and dimensionality. Through balance, value, and contrast, the portrait explores the tension between strength and fragility, showing how one gaze can hold both power and vulnerability at once.",
+    inspiration: "This piece was inspired by the intense character portrayal in Squid Game.",
+    dimensions: { width: 5.5, height: 6, depth: 0 },
+    tags: ["Squid Game", "Realism", "Portrait", "Gong Yoo", "Graphite"],
+    slug: "eyes-speak",
   },
 }
 
