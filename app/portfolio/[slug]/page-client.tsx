@@ -19,6 +19,7 @@ export default function ArtworkPage() {
       ? params.slug[0]
       : "";
   const [scrollProgress, setScrollProgress] = useState(0);
+  const [showProcess, setShowProcess] = useState(false);
   const artwork = getArtworkBySlug(slug);
   const relatedArtworks = getRelatedArtworks(slug, 3);
 
@@ -138,6 +139,14 @@ export default function ArtworkPage() {
                   className="object-cover"
                   priority
                 />
+              </div>
+              <div className="mt-6 text-center">
+                <Button
+                  onClick={() => setShowProcess(true)}
+                  className="bg-gradient-to-r from-[#C1C6DE] to-[#C1C6DE] hover:from-[#9CA4CB] hover:to-[#D0B0B8] text-[#8070A0] px-6 py-2 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 backdrop-blur-sm"
+                >
+                  View Process
+                </Button>
               </div>
             </div>
 
@@ -283,6 +292,40 @@ export default function ArtworkPage() {
             </div>
           )}
         </div>
+
+        {/* Process Modal */}
+        {showProcess && (
+          <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/50 backdrop-blur-sm">
+            <div
+              className="max-w-4xl w-full max-h-[90vh] overflow-y-auto backdrop-blur-sm rounded-3xl p-8 border relative"
+              style={{
+                backgroundColor: `rgba(240, 224, 232, 0.95)`,
+                borderColor: `rgba(224, 200, 208, 0.6)`,
+              }}
+            >
+              <Button
+                onClick={() => setShowProcess(false)}
+                className="absolute top-4 right-4 bg-[#8070A0] hover:bg-[#7060A0] text-white rounded-full p-2"
+              >
+                ✕
+              </Button>
+              
+              <div className="space-y-8">
+                <div className="text-center">
+                  <h2 className="text-4xl font-serif text-[#8070A0] mb-2">Creative Process</h2>
+                  <h3 className="text-2xl text-[#9080B0]">{artwork.title}</h3>
+                </div>
+
+                <div>
+                  {typeof artwork.process === "function"
+                    ? <artwork.process />
+                    : <p className="text-[#9080B0] leading-relaxed">{artwork.process}</p>
+                  }
+                </div>
+              </div>
+            </div>
+          </div>
+        )}
 
         {/* Footer */}
         <footer
