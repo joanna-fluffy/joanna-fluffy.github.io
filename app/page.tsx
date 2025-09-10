@@ -78,7 +78,7 @@ export default function ArtistPortfolio() {
                 Joanna Gong
               </h1>
               <p className="text-xl md:text-2xl text-[#9080B0] mb-8 font-light drop-shadow-sm">
-                Graphite Realist with an Impressionist Eye | Student Artist
+                Student Artist | Paintings & Sketches
               </p>
               <p className="text-lg text-[#A090C0] mb-12 max-w-2xl mx-auto leading-relaxed drop-shadow-sm">
                 Capturing presence and place through detailed graphite portraits and atmospheric landscapes.
@@ -108,23 +108,17 @@ export default function ArtistPortfolio() {
                   <h2 className="text-4xl md:text-5xl font-serif text-[#8070A0] mb-8 drop-shadow-sm">
                     About the Artist
                   </h2>
-                  <p className="text-lg text-[#9080B0] leading-relaxed drop-shadow-sm">
-                    Joanna Gong is a student artist influenced by Claude Monet’s overall style, particularly his use of
-                    color, mood, and natural landscapes. While Monet inspires her sense of atmosphere and harmony,
-                    Joanna is also deeply drawn to realism in portraiture. She works mainly with graphite, focusing on line,
-                    proportion, and value to create portraits that balance precision with expression.
-                  </p>
-                  <p className="text-lg text-[#9080B0] leading-relaxed drop-shadow-sm">
-                    Her artistic journey began in childhood when she first sketched the flowers and scenery in her
-                    backyard. These early drawings sparked her interest in observing textures, light, and the rhythm
-                    of natural forms. Over time, this attention to detail shaped her ability to create works that
-                    merge realism with thoughtful composition and movement.
-                  </p>
-                  <p className="text-lg text-[#9080B0] leading-relaxed drop-shadow-sm">
-                    Today, Joanna continues to develop her practice through both portraits and landscapes. She enjoys creating
-                    scenes of lakes, mountains, and open spaces, exploring unity, contrast, and the interplay of light and shadow.
-                    By combining the intimacy of portraiture with the expansiveness of nature, her work reflects a dedication 
-                    to realism while also capturing atmosphere, balance, and form.
+                  <p className="text-lg text-[#9080B0] leading-relaxed drop-shadow-sm">                
+                    I am a student artist inspired by Claude Monet, particularly his use of color, mood, and natural landscapes. 
+                    While Monet influences my sense of atmosphere and harmony, I am also deeply drawn to realism in portraiture. 
+                    I work mainly with graphite, focusing on line, proportion, and value to create portraits that balance 
+                    precision with expression.
+                  </p>              
+                  <p className="text-lg text-[#9080B0] leading-relaxed drop-shadow-sm">                    
+                    Today, I continue to develop my practice through both portraits and landscapes. I enjoy creating scenes of lakes,
+                    mountains, and open spaces, exploring unity, contrast, and the interplay of light and shadow. By combining the 
+                    intimacy of portraiture with the expansiveness of nature, my work reflects my dedication to realism while capturing
+                    atmosphere, balance, and form.
                   </p>
                 </div>
                 <div className="space-y-6">
