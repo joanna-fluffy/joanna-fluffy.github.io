@@ -27,8 +27,7 @@ export const artworksData: Record<string, Artwork> = {
     size: '7.9" x 5.5"',
     year: "2025",
     image: "/IMG_1771.jpeg",
-    description:
-      "Colorful koi swimming among lilypads, capturing light, movement, and energy.",
+    description: "Colorful koi swimming among lilypads, capturing light, movement, and energy.",
     longDescription:
       "Circle of Harmony depicts a vibrant koi pond, exploring the interplay of light and shadow to bring the fish and water to life. The bright oranges and whites of the koi contrast with the deep blues and greens of the water and lilypads, creating a lively, three-dimensional effect. By arranging the fish in a circular flow, I aimed to capture movement and rhythm, giving the composition a dynamic energy. The overall mood is playful, colorful, and energetic, reflecting the beauty and vitality of koi swimming in a pond.",
     inspiration: "This work was inspired by reference images found on Pinterest, which guided my exploration of color, composition, and texture.",
@@ -36,10 +35,10 @@ export const artworksData: Record<string, Artwork> = {
       <div className="space-y-6">
         <div className="relative w-full max-w-2xl mx-auto">
           <Image
-            src="/IMG_9331.JPG"
+            src="/IMG_2654.JPG"
             alt="Circle of Harmony - Creative Process"
-            width={300}
-            height={400}
+            width={150}
+            height={200}
             className="rounded-lg shadow-lg object-cover"
           />
         </div>
