@@ -11,7 +11,7 @@ export interface Artwork {
   description: string
   longDescription: string
   technique?: string
-  inspiration?: string
+  inspiration: string
   process: React.ComponentType
   dimensions: { width: number; height: number; depth: number }
   exhibitions?: string[]
@@ -90,7 +90,8 @@ export const artworksData: Record<string, Artwork> = {
     description: "A realistic portrait of Ni-ki from Enhypen.",
     longDescription:
       "The Brightest Star captures the luminous presence of Ni-ki as he stands against a radiant backdrop, the light framing him like a celestial glow. Rather than emphasizing his face, the sketch softens his features to create an atmospheric aura, letting the brilliance of the scene take center stage. The attention to the delicate folds and textures of his clothing grounds the piece in detail, while the glowing light transforms him into the embodiment of a star. This work celebrates both the ethereal beauty of the moment and the quiet strength of Ni-ki’s presence, turning a fleeting scene into something timeless."
-    process: () => (
+    inspiration:
+     process: () => (
       <div className="space-y-4">
         <p className="text-[#9080B0] leading-relaxed">
           I began by studying the reference image, focusing on the way light interacts with Ni-ki's figure and clothing. Using graphite allowed me to achieve a range of tones, from deep shadows to bright highlights, which was essential for capturing the luminous quality of the scene. I started with a light sketch to outline the composition, then gradually built up layers of shading to create depth and texture. The folds in the clothing were rendered with careful attention to detail, using varied pencil strokes to convey the fabric's softness and movement. The background was kept minimal to emphasize the glowing light around Ni-ki, enhancing the ethereal atmosphere of the piece.
