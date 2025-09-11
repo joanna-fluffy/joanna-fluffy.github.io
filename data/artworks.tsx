@@ -38,13 +38,13 @@ export const artworksData: Record<string, Artwork> = {
           <Image
             src="/IMG_9331.JPG"
             alt="Circle of Harmony - Creative Process"
-            width={600}
-            height={800}
+            width={300}
+            height={400}
             className="rounded-lg shadow-lg object-cover"
           />
         </div>
         <p className="text-[#9080B0] leading-relaxed">
-          I began by studying the reference images, focusing on the way light plays across the water surface and the koi's scales. Using gouache allowed me to build up rich, opaque colors that could capture both the vibrant oranges of the koi and the deep, reflective blues of the water.
+          I began by studying the reference images, focusing on the way light plays across the water surface and the koi's scales. Using gouache allowed me to build up rich, opaque colors that could capture both the vibrant oranges of the koi and the deep blues of the water.
         </p>
         <p className="text-[#9080B0] leading-relaxed">
           I started with loose washes to establish the water's movement, then layered more opaque colors for the fish. The circular composition emerged naturally as I painted, with each koi positioned to guide the eye around the pond. The lilypads were added last, using quick, confident brushstrokes to maintain the painting's spontaneous energy.
@@ -90,8 +90,8 @@ export const artworksData: Record<string, Artwork> = {
     description: "A realistic portrait of Ni-ki from Enhypen.",
     longDescription:
       "The Brightest Star captures the luminous presence of Ni-ki as he stands against a radiant backdrop, the light framing him like a celestial glow. Rather than emphasizing his face, the sketch softens his features to create an atmospheric aura, letting the brilliance of the scene take center stage. The attention to the delicate folds and textures of his clothing grounds the piece in detail, while the glowing light transforms him into the embodiment of a star. This work celebrates both the ethereal beauty of the moment and the quiet strength of Ni-ki’s presence, turning a fleeting scene into something timeless."
-    inspiration:
-     process: () => (
+    inspiration: "Niki from Enhypen.",
+    process: () => (
       <div className="space-y-4">
         <p className="text-[#9080B0] leading-relaxed">
           I began by studying the reference image, focusing on the way light interacts with Ni-ki's figure and clothing. Using graphite allowed me to achieve a range of tones, from deep shadows to bright highlights, which was essential for capturing the luminous quality of the scene. I started with a light sketch to outline the composition, then gradually built up layers of shading to create depth and texture. The folds in the clothing were rendered with careful attention to detail, using varied pencil strokes to convey the fabric's softness and movement. The background was kept minimal to emphasize the glowing light around Ni-ki, enhancing the ethereal atmosphere of the piece.
