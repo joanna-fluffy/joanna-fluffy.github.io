@@ -11,7 +11,7 @@ export interface Artwork {
   description: string
   longDescription: string
   technique?: string
-  inspiration: string
+  inspiration?: string
   process: React.ComponentType
   dimensions: { width: number; height: number; depth: number }
   exhibitions?: string[]
