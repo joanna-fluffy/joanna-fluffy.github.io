@@ -206,16 +206,16 @@ export default function ArtworkPage() {
                     {artwork.longDescription}
                   </p>
                 </div>
-
-                <div>
-                  <h3 className="font-medium text-[#8070A0] mb-2">
-                    Inspiration
-                  </h3>
-                  <p className="text-[#9080B0] leading-relaxed">
-                    {artwork.inspiration}
-                  </p>
-                </div>
-
+               {artwork.inspiration && (
+                  <div>
+                    <h3 className="font-medium text-[#8070A0] mb-2">
+                      Inspiration
+                    </h3>
+                    <p className="text-[#9080B0] leading-relaxed">
+                      {artwork.inspiration}
+                    </p>
+                  </div>
+                )}
                 {artwork.exhibitions && artwork.exhibitions.length > 0 && (
                   <div>
                     <h3 className="font-medium text-[#8070A0] mb-2">
