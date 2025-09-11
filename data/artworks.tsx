@@ -36,7 +36,7 @@ export const artworksData: Record<string, Artwork> = {
       <div className="space-y-6">
         <div className="relative w-full max-w-2xl mx-auto">
           <Image
-            src="/IMG_1771.jpeg"
+            src="/IMG_9331.JPG"
             alt="Circle of Harmony - Creative Process"
             width={600}
             height={800}
