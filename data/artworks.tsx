@@ -37,8 +37,8 @@ export const artworksData: Record<string, Artwork> = {
           <Image
             src="/IMG_2654.JPG"
             alt="Circle of Harmony - Creative Process"
-            width={150}
-            height={200}
+            width={300}
+            height={400}
             className="rounded-lg shadow-lg object-cover"
           />
         </div>
