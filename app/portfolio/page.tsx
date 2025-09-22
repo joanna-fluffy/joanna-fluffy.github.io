@@ -87,8 +87,7 @@ export default function PortfolioPage() {
             >
               <h1 className="text-4xl md:text-6xl font-serif text-[#8070A0] mb-6">Portfolio</h1>
               <p className="text-xl text-[#9080B0] max-w-3xl mx-auto leading-relaxed">
-                A collection of art exploring the beauty of nature, realism, light, and color. Each piece
-                captures fleeting moments of peace and wonder.
+                A collection of art throughout the years.
               </p>
             </div>
           </div>
