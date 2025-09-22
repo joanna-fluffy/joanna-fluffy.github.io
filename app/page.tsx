@@ -81,7 +81,7 @@ export default function ArtistPortfolio() {
                 Student Artist | Paintings & Sketches
               </p>
               <p className="text-lg text-[#A090C0] mb-12 max-w-2xl mx-auto leading-relaxed drop-shadow-sm">
-                Capturing presence and place through detailed graphite portraits and atmospheric landscapes.
+                An exploration of creativity and growth through art
               </p>
               <Button
                 size="lg"
