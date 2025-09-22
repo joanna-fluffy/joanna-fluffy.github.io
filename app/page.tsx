@@ -172,6 +172,7 @@ export default function ArtistPortfolio() {
                   <h3 className="text-2xl text-[#9080B0]">Joanna Gong</h3>
                   <p className="text-[#A090C0]">Student Artist</p>
                 </div>
+              </div>
 
                 <div className="space-y-6">
                   <div>
@@ -201,9 +202,7 @@ export default function ArtistPortfolio() {
                       <p>• Acrylic painting</p>                    
                       <p>• Graphite realism</p>
                     </div>
-                  </div>                  
-                  
-                  </div>
+                  </div>  
                 </div>
               </div>
             </div>
