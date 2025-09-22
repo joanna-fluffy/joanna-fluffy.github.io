@@ -81,7 +81,7 @@ export default function ArtistPortfolio() {
                 Student Artist | Paintings & Sketches
               </p>
               <p className="text-lg text-[#A090C0] mb-12 max-w-2xl mx-auto leading-relaxed drop-shadow-sm">
-                An exploration of creativity and growth through art
+                An exploration of creativity and growth through art, seen through my lens.
               </p>
               <Button
                 size="lg"
@@ -177,8 +177,9 @@ export default function ArtistPortfolio() {
                   <div>
                     <h4 className="text-xl font-serif text-[#8070A0] mb-3 border-b border-[#D0B0B8] pb-1">Education</h4>
                     <div className="space-y-2 text-[#9080B0]">
-                      <p>Currently pursuing studies in Visual Arts</p>
-                      <p>Self-taught in graphite portraiture and landscape painting</p>
+                      <p>• 4 cats - 2015-2016</p>
+                      <p>• student artist - 2015-present</p>
+                      <p>• Self-taught in graphite portraiture and landscape painting</p>
                     </div>
                   </div>
 
@@ -187,49 +188,21 @@ export default function ArtistPortfolio() {
                     <div className="space-y-2 text-[#9080B0]">
                       <p>• Graphite realism with emphasis on portraiture</p>
                       <p>• Atmospheric landscape painting inspired by Impressionist techniques</p>
-                      <p>• Exploration of light, shadow, and natural forms</p>
-                      <p>• Integration of precision with expressive composition</p>
+                      <p>• Exploration of various art mediums</p>
                     </div>
                   </div>
-
-                  <div>
-                    <h4 className="text-xl font-serif text-[#8070A0] mb-3 border-b border-[#D0B0B8] pb-1">Artistic Influences</h4>
-                    <div className="space-y-2 text-[#9080B0]">
-                      <p>• Claude Monet - Color, mood, and natural landscapes</p>
-                      <p>• Classical realist traditions in portraiture</p>
-                      <p>• Contemporary graphite artists</p>
-                    </div>
-                  </div>
-
+              
                   <div>
                     <h4 className="text-xl font-serif text-[#8070A0] mb-3 border-b border-[#D0B0B8] pb-1">Technical Skills</h4>
                     <div className="space-y-2 text-[#9080B0]">
                       <p>• Graphite drawing and shading techniques</p>
                       <p>• Oil pastel painting</p>
                       <p>• Gouache painting</p>
-                      <p>• Acrylic painting</p>
-                      <p>• Composition and color theory</p>
-                      <p>• Portrait anatomy and proportions</p>
+                      <p>• Acrylic painting</p>                    
+                      <p>• Graphite realism</p>
                     </div>
-                  </div>
-
-                  <div>
-                    <h4 className="text-xl font-serif text-[#8070A0] mb-3 border-b border-[#D0B0B8] pb-1">Recent Works (2025)</h4>
-                    <div className="space-y-2 text-[#9080B0]">
-                      <p>• "Circle of Harmony" - Gouache koi pond study</p>
-                      <p>• "Fluffy's First Adventure" - Acrylic landscape of Johnson Lake, Banff</p>
-                      <p>• "The Brightest Star" - Graphite portrait study</p>
-                      <p>• "Piercing Gaze" - Realistic graphite portrait</p>
-                      <p>• "Whispers of the Field" - Oil pastel landscape exploration</p>
-                      <p>• "Eyes Speak" - Dual-emotion graphite portrait</p>
-                    </div>
-                  </div>
-
-                  <div>
-                    <h4 className="text-xl font-serif text-[#8070A0] mb-3 border-b border-[#D0B0B8] pb-1">Artistic Philosophy</h4>
-                    <div className="text-[#9080B0]">
-                      <p>My work seeks to bridge the gap between precise realism and atmospheric expression. Through careful observation of light, texture, and form, I aim to create pieces that capture not just the physical appearance of subjects, but their essence and the mood of the moment. Whether working on detailed portraits or expansive landscapes, I strive to balance technical skill with emotional resonance.</p>
-                    </div>
+                  </div>                  
+                  
                   </div>
                 </div>
               </div>
