@@ -171,8 +171,7 @@ export default function ArtistPortfolio() {
                   <h2 className="text-4xl font-serif text-[#8070A0] mb-2">Curriculum Vitae</h2>
                   <h3 className="text-2xl text-[#9080B0]">Joanna Gong</h3>
                   <p className="text-[#A090C0]">Student Artist</p>
-                </div>
-              </div>
+                </div>            
 
                 <div className="space-y-6">
                   <div>
