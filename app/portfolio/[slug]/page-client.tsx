@@ -126,20 +126,25 @@ export default function ArtworkPage() {
                 })`,
               }}
             >
-              <div
-                className="relative w-full overflow-hidden rounded-2xl shadow-2xl"
-                style={{
-                  aspectRatio: `${artwork.dimensions.width} / ${artwork.dimensions.height}`,
-                }}
-              >
-                <Image
-                  src={artwork.image || "/placeholder.svg"}
-                  alt={artwork.title}
-                  fill
-                  className="object-cover"
-                  priority
-                />
-              </div>
+             <div className="grid grid-cols-1 gap-4">
+              {artwork.images.map((img, index) => (
+                <div
+                  key={index}
+                  className="relative w-full overflow-hidden rounded-2xl shadow-2xl"
+                  style={{
+                    aspectRatio: `${artwork.dimensions.width} / ${artwork.dimensions.height}`,
+                  }}
+                >
+                  <Image
+                    src={img}
+                    alt={`${artwork.title} image ${index + 1}`}
+                    fill
+                    className="object-cover"
+                    priority={index === 0} // first image loads faster
+                  />
+                </div>
+              ))}
+            </div>
               <div className="mt-6 text-center">
                 <Button
                   onClick={() => setShowProcess(true)}
