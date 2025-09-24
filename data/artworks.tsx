@@ -7,7 +7,7 @@ export interface Artwork {
   medium: string
   size: string
   year: string
-  image: string
+  images: string[]
   description: string
   longDescription: string
   technique?: string
@@ -26,7 +26,7 @@ export const artworksData: Record<string, Artwork> = {
     medium: "Gouache",
     size: '7.9" x 5.5"',
     year: "2025",
-    image: "/IMG_1771.jpeg",
+    image: ["/IMG_1771.jpeg"],
     description: "Colorful koi swimming among lilypads, capturing light, movement, and energy.",
     longDescription:
       "Circle of Harmony depicts a vibrant koi pond, exploring the interplay of light and shadow to bring the fish and water to life. The bright oranges and whites of the koi contrast with the deep blues and greens of the water and lilypads, creating a lively, three-dimensional effect. By arranging the fish in a circular flow, I aimed to capture movement and rhythm, giving the composition a dynamic energy. The overall mood is playful, colorful, and energetic, reflecting the beauty and vitality of koi swimming in a pond.",
@@ -60,7 +60,7 @@ export const artworksData: Record<string, Artwork> = {
     medium: "Acrylic on Canvas",
     size: '12" x 12"',
     year: "2025",
-    image: "/IMG_1757.jpg",
+    image: ["/IMG_1757.jpg"],
     description: "A dreamy sunset unfolding over a majestic mountain, mirrored by the still waters of a tranquil lake.",
     longDescription:
       "Fluffy’s First Adventure captures the calm beauty of Johnson Lake in Banff, where the mountains rise strong and the water rests in stillness. The sunset paints the scene in warm colors, reflecting both the strength of nature and the peace of the lake. This piece marks my dog Fluffy’s first road trip, making the moment even more meaningful and full of memory.",
@@ -85,7 +85,7 @@ export const artworksData: Record<string, Artwork> = {
     medium: "Graphite",
     size: '7.9" x 5.5"',
     year: "2025",
-    image: "/IMG_8168.jpg",
+    image: ["/IMG_8168.jpg"],
     description: "A realistic portrait of Ni-ki from Enhypen.",
     longDescription:
       "The Brightest Star captures the luminous presence of Ni-ki as he stands against a radiant backdrop, the light framing him like a celestial glow. Rather than emphasizing his face, the sketch softens his features to create an atmospheric aura, letting the brilliance of the scene take center stage. The attention to the delicate folds and textures of his clothing grounds the piece in detail, while the glowing light transforms him into the embodiment of a star. This work celebrates both the ethereal beauty of the moment and the quiet strength of Ni-ki’s presence, turning a fleeting scene into something timeless.",
@@ -107,7 +107,7 @@ export const artworksData: Record<string, Artwork> = {
     medium: "Graphite",
     size: '7.9" x 5.5"',
     year: "2025",
-    image: "/IMG_1773.jpeg",
+    image: ["/IMG_1773.jpeg"],
     description: "A realistic 3/4 portrait of Sunghoon from Enhypen",
     longDescription:
       "Piercing Gaze is a realistic graphite portrait of Sunghoon, created with attention to detail, shading, and simulated texture. I focused on capturing facial structure, expression, and the play of light and shadow, making adjustments to personalize the portrait. Using layered pencil strokes, blending, and varied pressure, I aimed to convey depth and realism while expressing the subject’s presence and character. This work reflects my interest in realistic portraiture and my fascination with translating references into expressive, hand-rendered artworks.",
@@ -130,7 +130,7 @@ export const artworksData: Record<string, Artwork> = {
     medium: "Oil pastel",
     size: '6.5" x 4"',
     year: "2025",
-    image: "/IMG_1758 2.jpeg",
+    image: ["/IMG_1758 2.jpeg"],
     description: "Tranquil landscape of open fields bathed in soft light.",
     longDescription:
       "This piece is an exploration of color, texture, and light using oil pastels, marking my first experience with this medium. The composition depicts a serene field with clusters of wildflowers in the foreground and a line of trees in the distance, under a sky alive with soft clouds. Through bold strokes and layered colors, I aimed to capture the natural rhythm, depth, and movement of the landscape, creating a sense of space and atmosphere. This work reflects both my curiosity as an artist experimenting with new media and my continuing interest in landscapes that balance calmness with lively, colorful detail.",
@@ -152,7 +152,7 @@ export const artworksData: Record<string, Artwork> = {
     medium: "Graphite",
     size: '6" x 5.5"',
     year: "2025",
-    image: "/IMG_1774.jpeg",
+    image: ["/IMG_1774.jpeg"],
     description: "Realistic pencil portrait showing dual emotions through a single face.",
     longDescription:
       "Eyes Speak is a realistic pencil portrait of Gong Yoo, capturing two contrasting emotions within a single face. The left side conveys arrogance and confidence, while the right side reveals fear and vulnerability, expressed most powerfully through the eyes. Careful shading, blending, and varied pencil strokes emphasize contrasts in light, texture, and form, creating depth and dimensionality. Through balance, value, and contrast, the portrait explores the tension between strength and fragility, showing how one gaze can hold both power and vulnerability at once.",
@@ -167,6 +167,30 @@ export const artworksData: Record<string, Artwork> = {
     dimensions: { width: 5.5, height: 6, depth: 0 },
     tags: ["Squid Game", "Realism", "Portrait", "Gong Yoo", "Graphite"],
     slug: "eyes-speak",
+  },
+   "deep-dive": {
+    id: 14,
+    title: "A Deep Dive into Creativity",
+    medium: "Acrylic and watercolour",
+    size: '7.9" x 5.5"',
+    year: "2025",
+    image: ["/IMG_2686.jpg", "/IMG_2694.jpg"]
+    description: "An adventurous dive into creativity. A title and cover page",
+    longDescription:
+      "When I first heard the prompt “a deep dive into creativity,” I immediately pictured someone diving into the deep waters of imagination. I considered what elements would work well with the prompt. I imagined paintbrushes, pencils, a glowing light bulb, a butterfly symbolizing creative freedom, and splatters of paint. At first, none of these felt particularly compelling. Then I asked myself: what exactly would the boy be diving for? Treasure. The treasure chest would become a symbol of boundless creativity, exploding outward. I decided the boy would dive toward the treasure chest, surrounded by other forms of creativity flowing around him. Additionally, I designed a title page inspired by my gouache piece Circle of Harmony, which featured lilypads and koi fish. I chose these elements because koi, freely swimming in water, symbolize freedom, reflecting the freedom to create. To connect it to the theme “a deep dive into creativity”, I incorporated another body of water to represent different dives into various forms of creativity. I also personalized the design by shaping my name into lilypads. ",
+    process: () => (
+      <div className="space-y-4">
+        <p className="text-[#9080B0] leading-relaxed">
+          I started with a rough sketch to outline the composition, focusing on the balance between the mountains, lake, and sky. Using acrylics allowed me to layer colors effectively, starting with broad washes for the sky and water to establish the overall mood.
+        </p>
+        <p className="text-[#9080B0] leading-relaxed">
+          I gradually built up the details of the mountains and reflections, using a mix of warm and cool tones to create depth and contrast. The brushwork varied from smooth blends in the sky to more textured strokes for the mountains and foreground, capturing the natural elements' different qualities. The final touches involved refining the reflections in the water and adding highlights to enhance the sense of light and atmosphere.
+        </p>
+      </div>
+    ),
+    dimensions: { width: 7.9, height: 5.5, depth: 0 },
+    tags: ["Deep Dive", "Creativity", "Acrylic", "water"],
+    slug: "deep-dive",
   },
 }
 
