@@ -118,7 +118,7 @@ export default function PortfolioPage() {
                       <Link href={`/portfolio/${artwork.slug}`}>
                         <div className="relative overflow-hidden">
                           <Image
-                            src={artwork.image || "/placeholder.svg"}
+                            src={artwork.images[0] || "/placeholder.svg"}
                             alt={artwork.title}
                             width={600}
                             height={400}
