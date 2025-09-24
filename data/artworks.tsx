@@ -174,7 +174,7 @@ export const artworksData: Record<string, Artwork> = {
     medium: "Acrylic and watercolour",
     size: '7.9" x 5.5"',
     year: "2025",
-    image: ["/IMG_2686.jpg", "/IMG_2694.jpg"]
+    image: ["/IMG_2686.jpg", "/IMG_2694.jpg"],
     description: "An adventurous dive into creativity. A title and cover page",
     longDescription:
       "When I first heard the prompt “a deep dive into creativity,” I immediately pictured someone diving into the deep waters of imagination. I considered what elements would work well with the prompt. I imagined paintbrushes, pencils, a glowing light bulb, a butterfly symbolizing creative freedom, and splatters of paint. At first, none of these felt particularly compelling. Then I asked myself: what exactly would the boy be diving for? Treasure. The treasure chest would become a symbol of boundless creativity, exploding outward. I decided the boy would dive toward the treasure chest, surrounded by other forms of creativity flowing around him. Additionally, I designed a title page inspired by my gouache piece Circle of Harmony, which featured lilypads and koi fish. I chose these elements because koi, freely swimming in water, symbolize freedom, reflecting the freedom to create. To connect it to the theme “a deep dive into creativity”, I incorporated another body of water to represent different dives into various forms of creativity. I also personalized the design by shaping my name into lilypads. ",
