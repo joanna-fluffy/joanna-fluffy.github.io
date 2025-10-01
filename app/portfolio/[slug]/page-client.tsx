@@ -278,7 +278,7 @@ export default function ArtworkPage() {
                         }}
                       >
                         <Image
-                          src={relatedArtwork.image || "/placeholder.svg"}
+                          src={relatedArtwork.images?.[0] || "/placeholder.svg"}
                           alt={relatedArtwork.title}
                           fill
                           className="object-cover group-hover:scale-105 transition-transform duration-300"
