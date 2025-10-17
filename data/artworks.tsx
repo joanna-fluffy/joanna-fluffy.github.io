@@ -181,10 +181,11 @@ export const artworksData: Record<string, Artwork> = {
     process: () => (
       <div className="space-y-4">
         <p className="text-[#9080B0] leading-relaxed">
-          .
+          in progress
         </p>
         <p className="text-[#9080B0] leading-relaxed">
-          .
+          in progress
+        </p>
       </div>
     ),
     dimensions: { width: 7.9, height: 5.5, depth: 0 },
