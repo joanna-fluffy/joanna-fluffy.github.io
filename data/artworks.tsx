@@ -181,11 +181,10 @@ export const artworksData: Record<string, Artwork> = {
     process: () => (
       <div className="space-y-4">
         <p className="text-[#9080B0] leading-relaxed">
-          I started with a rough sketch to outline the composition, focusing on the balance between the mountains, lake, and sky. Using acrylics allowed me to layer colors effectively, starting with broad washes for the sky and water to establish the overall mood.
+          .
         </p>
         <p className="text-[#9080B0] leading-relaxed">
-          I gradually built up the details of the mountains and reflections, using a mix of warm and cool tones to create depth and contrast. The brushwork varied from smooth blends in the sky to more textured strokes for the mountains and foreground, capturing the natural elements' different qualities. The final touches involved refining the reflections in the water and adding highlights to enhance the sense of light and atmosphere.
-        </p>
+          .
       </div>
     ),
     dimensions: { width: 7.9, height: 5.5, depth: 0 },
